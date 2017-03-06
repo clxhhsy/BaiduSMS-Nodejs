@@ -10,6 +10,7 @@
 * 设置服务域名,默认`sms.bj.baidubce.com`  
   `baiduSMS.setEndPoint(endPoint)`
 * 下发短信
-  ```
+
+  `
   baiduSMS.sendSmsSingleDevice(invokeId,phoneNumber,templateCode,contentVar);
-  ```
+  `
