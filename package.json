@@ -1,7 +1,7 @@
 {
   "name": "bdsms-nodejs",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "百度SMS-Nodejs",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,8 +9,19 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clxhhsy/BaiduSMS-Nodejs.git"
+  },
+  "keywords": [
+    "sms",
+    "bdsms"
+  ],
+  "author": "clxhhsy",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/clxhhsy/BaiduSMS-Nodejs/issues"
+  },
   "dependencies": {
     "async": "^1.5.2",
     "debug": "^2.2.0",
