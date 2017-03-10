@@ -1,6 +1,6 @@
 {
   "name": "bdsms-nodejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "百度SMS-Nodejs",
   "main": "index.js",
   "directories": {
@@ -23,13 +23,12 @@
     "url": "https://github.com/clxhhsy/BaiduSMS-Nodejs/issues"
   },
   "dependencies": {
-    "async": "^1.5.2",
-    "debug": "^2.2.0",
     "q": "^1.1.2",
-    "underscore": "^1.7.0",
-    "node-fetch": "^1.6.3"
+    "underscore": "^1.7.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "pre-commit": "^1.2.2",
+    "expect.js": "^0.3.1"
   }
 }

@@ -6,11 +6,26 @@
 
 ## 使用方法
 * 安装 `npm install bdsms-nodejs`
-* `var baiduSMS = new BaiduSMS("ak","sk")`
-* 设置服务域名,默认`sms.bj.baidubce.com`  
-  `baiduSMS.setEndPoint(endPoint)`
+* 
+```
+    var config = {
+        'endpoint': 'http://sms.bj.baidubce.com',
+        'credentials': {
+            'ak': 'ak',
+            'sk': 'sk'
+        }
+    };
+    var client = new SmsClient(config);
+```
 * 下发短信
 
-  `
-  baiduSMS.sendSmsSingleDevice(invokeId,phoneNumber,templateCode,contentVar);
-  `
+  ```
+  client.sendMessage({
+       invokeId: 'invokeId',
+       phoneNumber: 'phoneNumber',
+       templateCode: 'templateCode',
+       contentVar: {
+           'code':'code'
+       }
+   });
+  ```
